@@ -24,7 +24,7 @@
         padding-top: 45px;
         padding-bottom: 75px;
         background: none;
-        background-color: #d7d2f5;
+        background-color: #98def0;
     }
 
     .slider_section .glass {
@@ -58,6 +58,7 @@
     }
 
     .info_section .row .col-md-3 {
+        padding-top: 25px;
         margin: 0;
         margin-bottom: 25px;
     }
