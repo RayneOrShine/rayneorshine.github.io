@@ -442,7 +442,6 @@ a:focus {
 
 .series_1_section .glass_container .box:hover {
   border-color: #ffffff;
-  box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .series_1_section .glass_container .box .img-box {
@@ -545,7 +544,6 @@ a:focus {
 
 .series_2_section .glass_container .box:hover {
   border-color: #ffffff;
-  box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .series_2_section .glass_container .box .img-box {
