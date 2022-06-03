@@ -7,6 +7,8 @@ function getYear() {
 
 getYear();
 
+const navbarHeight = 80;
+
 window.onscroll = function() {navbarHighlight()};
 
 const navitems = document.querySelectorAll("nav ul li");
@@ -17,8 +19,8 @@ function navbarHighlight() {
     let current = "";
 
     sections.forEach( section => {
-        sectionTop = section.offsetTop - 80;
-        sectionHeight = section.clientHeight + 80;
+        sectionTop = section.offsetTop - navbarHeight;
+        sectionHeight = section.clientHeight + navbarHeight;
         if (scrollY >= sectionTop && scrollY <= sectionTop + sectionHeight) {
             current = section.getAttribute('id');
             console.log(current)
