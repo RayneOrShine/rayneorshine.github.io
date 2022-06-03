@@ -36,6 +36,9 @@ h1, h2, h3, h4, h5, h6 {
       url('../fonts/MADE\ Tommy\ Soft\ Bold\ Outline.woff') format('woff');
 }
 
+#home, #aboutme, #shirts, #custom {
+  scroll-margin-top: 80px;
+}
 
 .layout_padding {
   padding: 75px 0;
@@ -100,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sticky {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 99999 !important;
@@ -215,7 +218,6 @@ a:focus {
 /*end header section*/
 /* slider section */
 .slider_section {
-  margin-top:80px;
   height: calc(100% - 80px);
   display: -webkit-box;
   display: -ms-flexbox;
