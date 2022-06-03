@@ -327,6 +327,7 @@ a:focus {
   background-size: 10px;
   background-position: center;
   background-color: #e8e8e8;
+  transition: 0.3s;
 }
 
 .slider_section .custom_carousel-control .carousel-control-prev:hover,
@@ -424,26 +425,11 @@ a:focus {
   text-align: center;
   padding: 20px;
   border-radius: 15px;
+  transition: 0.35s;
 }
 
 .series_1_section .glass_container .box:hover {
-  width: 265px;
-  margin: 10px;
-  background-color: #fad19b;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .series_1_section .glass_container .box .img-box {
@@ -539,26 +525,11 @@ a:focus {
   text-align: center;
   padding: 20px;
   border-radius: 15px;
+  transition: 0.35s;
 }
 
 .series_2_section .glass_container .box:hover {
-  width: 265px;
-  margin: 10px;
-  background-color: #98def0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .series_2_section .glass_container .box .img-box {
