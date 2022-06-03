@@ -99,6 +99,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999 !important;
+}
+
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
   padding: 10px 30px;
   color: #7c7b7b;
@@ -208,6 +215,7 @@ a:focus {
 /*end header section*/
 /* slider section */
 .slider_section {
+  margin-top:80px;
   height: calc(100% - 80px);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -263,19 +271,21 @@ a:focus {
 }
 
 .slider_section .detail-box .btn-box a {
+  font-family: 'MADE Tommy Soft Bold';
   display: inline-block;
   padding: 10px 45px;
-  background-color: #1d1d1d;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #98def0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid transparent;
+  border-radius:30px;
 }
 
 .slider_section .detail-box .btn-box a:hover {
   background-color: transparent;
-  border-color: #1d1d1d;
-  color: #1d1d1d;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 .slider_section #carouselExampleIndicators {
@@ -371,6 +381,7 @@ a:focus {
   transition: all 0.3s;
   border: 1px solid transparent;
   margin-top: 35px;
+  border-radius:30px;
 }
 
 .about_section .detail-box a:hover {
@@ -424,11 +435,13 @@ a:focus {
           align-items: center;
   text-align: center;
   padding: 20px;
+  border: 5px solid transparent;
   border-radius: 15px;
-  transition: 0.35s;
+  transition: all 0.3s;
 }
 
 .series_1_section .glass_container .box:hover {
+  border-color: #ffffff;
   box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.15) !important;
 }
 
@@ -476,6 +489,7 @@ a:focus {
   transition: all 0.3s;
   border: 1px solid transparent;
   margin-top: 35px;
+  border-radius:30px;
 }
 
 .series_1_section .btn-box a:hover {
@@ -525,10 +539,12 @@ a:focus {
   text-align: center;
   padding: 20px;
   border-radius: 15px;
-  transition: 0.35s;
+  transition: all 0.3s;
+  border: 5px solid transparent;
 }
 
 .series_2_section .glass_container .box:hover {
+  border-color: #ffffff;
   box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.15) !important;
 }
 
@@ -576,6 +592,7 @@ a:focus {
   transition: all 0.3s;
   border: 1px solid transparent;
   margin-top: 35px;
+  border-radius:30px;
 }
 
 .series_2_section .btn-box a:hover {
@@ -683,6 +700,7 @@ a:focus {
   transition: all 0.3s;
   border: 1px solid transparent;
   margin-top: 35px;
+  border-radius:30px;
 }
 
 .custom_section .detail-box a:hover {
@@ -735,6 +753,7 @@ a:focus {
   transition: all 0.3s;
   border: 1px solid transparent;
   margin-top: 25px;
+  border-radius:30px;
 }
 
 .buy_section .box .detail-box a:hover {
