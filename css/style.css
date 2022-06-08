@@ -36,6 +36,9 @@ h1, h2, h3, h4, h5, h6 {
       url('../fonts/MADE\ Tommy\ Soft\ Bold\ Outline.woff') format('woff');
 }
 
+#home, #aboutme, #shirts, #custom {
+  scroll-margin-top: 80px;
+}
 
 .layout_padding {
   padding: 75px 0;
@@ -97,6 +100,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .header_section .nav_container {
   margin: 0 auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999 !important;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
@@ -263,19 +273,21 @@ a:focus {
 }
 
 .slider_section .detail-box .btn-box a {
+  font-family: 'MADE Tommy Soft Bold';
   display: inline-block;
   padding: 10px 45px;
-  background-color: #1d1d1d;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #98def0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid transparent;
+  border-radius:30px;
 }
 
 .slider_section .detail-box .btn-box a:hover {
   background-color: transparent;
-  border-color: #1d1d1d;
-  color: #1d1d1d;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 .slider_section #carouselExampleIndicators {
@@ -327,6 +339,7 @@ a:focus {
   background-size: 10px;
   background-position: center;
   background-color: #e8e8e8;
+  transition: 0.3s;
 }
 
 .slider_section .custom_carousel-control .carousel-control-prev:hover,
@@ -370,6 +383,7 @@ a:focus {
   transition: all 0.3s;
   border: 1px solid transparent;
   margin-top: 35px;
+  border-radius:30px;
 }
 
 .about_section .detail-box a:hover {
@@ -423,27 +437,13 @@ a:focus {
           align-items: center;
   text-align: center;
   padding: 20px;
+  border: 5px solid transparent;
   border-radius: 15px;
+  transition: all 0.3s;
 }
 
 .series_1_section .glass_container .box:hover {
-  width: 265px;
-  margin: 10px;
-  background-color: #fad19b;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.15) !important;
+  border-color: #ffffff;
 }
 
 .series_1_section .glass_container .box .img-box {
@@ -490,6 +490,7 @@ a:focus {
   transition: all 0.3s;
   border: 1px solid transparent;
   margin-top: 35px;
+  border-radius:30px;
 }
 
 .series_1_section .btn-box a:hover {
@@ -539,26 +540,12 @@ a:focus {
   text-align: center;
   padding: 20px;
   border-radius: 15px;
+  transition: all 0.3s;
+  border: 5px solid transparent;
 }
 
 .series_2_section .glass_container .box:hover {
-  width: 265px;
-  margin: 10px;
-  background-color: #98def0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.15) !important;
+  border-color: #ffffff;
 }
 
 .series_2_section .glass_container .box .img-box {
@@ -605,6 +592,7 @@ a:focus {
   transition: all 0.3s;
   border: 1px solid transparent;
   margin-top: 35px;
+  border-radius:30px;
 }
 
 .series_2_section .btn-box a:hover {
@@ -712,6 +700,7 @@ a:focus {
   transition: all 0.3s;
   border: 1px solid transparent;
   margin-top: 35px;
+  border-radius:30px;
 }
 
 .custom_section .detail-box a:hover {
@@ -764,6 +753,7 @@ a:focus {
   transition: all 0.3s;
   border: 1px solid transparent;
   margin-top: 25px;
+  border-radius:30px;
 }
 
 .buy_section .box .detail-box a:hover {
